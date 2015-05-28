@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Recon Bio Ti</string>
+    <string name="msg_company_name">Bio Ti Sistemas e Automações</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Layout About-->
+    <string name="msg_copyright">Copyright 2015 Bio Ti Sistemas e Automações</string>
+
+    <!-- Layout Main_Controls-->
+    <string name="msg_capture">Capturar Face</string>
+    <string name="msg_stop">Parar</string>
+    <string name="msg_enroll">Registrar</string>
+    <string name="msg_identify">Identificar</string>
+    <string name="msg_verify">Verificar</string>
+
+    <!-- Layout Ativador-->
+    <string name="msg_ativador">Gerenciador de Licenças</string>
+    <string name="btn_ativar">Ativar</string>
+    <string name="btn_desativar">Desativar</string>
+
+    <string name="msg_yes">Sim</string>
+    <string name="msg_no">Não</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_unknown">Desconhecido</string>
+    <string name="msg_format_status">Status: %1$s</string>
+    <string name="msg_format_trial">Trial: %1$s</string>
+    <string name="msg_format_log">Log:\n%1$s</string>
+    <string name="Configuração">Configuration:\n%1$s</string>
+    <string name="msg_sdcard_not_ready_for_reading">O Cartão SD não pode ser lido. Por favor remonte-o e tente novamente..</string>
+    <string name="msg_format_configuration">Configuração:\n%1$s</string>
+    <string name="msg_obtaining_licenses">Obtendo Licenças</string>
+    <string name="msg_licenses_obtained">Licença Obtida</string>
+    <string name="msg_licenses_not_obtained">Licença Não Obtida</string>
+    <string name="msg_loading_resources">Carregando Recursos</string>
+    <string name="msg_licensing_mode">Modos Licença</string>
+    <string name="msg_licensing_server">Servidor de Licença</string>
+    <string name="msg_licensing_server_address">Endereço do Servidor</string>
+    <string name="msg_licensing_server_port">Porta do Servidor</string>
+    <string name="msg_reset_to_defaults">Restaurar Valores Originais</string>
+    <string name="msg_reset_to_defaults_summary">Restaurar Valores Originais do Sumário</string>
+    <string name="msg_connected">Conectado</string>
+    <string name="msg_not_connected">Não Conectado</string>
+    <string name="msg_no_licenses">Não há licenças nesse local</string>
+    <string name="msg_activating">Ativando</string>
+    <string name="msg_deactivating">Não ativado</string>
+    <string name="msg_activation_succeeded">Ativação bem sucedida</string>
+    <string name="msg_proceed_activation_online">Ativando online</string>
+    <string name="msg_deactivation_succeeded">Desativação bem-sucedida</string>
+    <string name="msg_proceed_deactivation_online">Realizando desativação online</string>
+    <string name="msg_no_internet_connection_still_proceed">Não há conexão com a internet</string>
+    <string name="msg_no_internet_connection">Não há conexão com a internet</string>
+    <string name="verifica_conexao">Não foi detectado conexão com a internet. Para realizar a ativação e desativação de licenças
+    a conexão é necessária. Por favor se conecte a internet e tente novamente!</string>
+    <string name="selecione_licenca">Nenhuma licença selecionada. É necessário selecionar uma ou mais licenças para realizar a ativação</string>
+    <string name="preferences_enrollment_check_for_duplicates">Verificar duplicidade</string>
+    <string name="preferences_matching">Reconhecimento</string>
+    <string name="preferences_matching_speed">Velocidade de Reconhecimento</string>
+    <string name="preferences_face_matching_threshold">Threshold Reconhecimento</string>
+    <string name="preferences_extraction">Extraindo</string>
+    <string name="preferences_face_template_size">Preferencias de tamanho do Template</string>
+    <string name="preferences_face_min_iod">Distância mínima interocular</string>
+    <string name="preferences_face_confidence_threshold">Face confidence threshold</string>
+    <string name="preferences_face_quality_threshold">Threshold qualidade da imagem</string>
+    <string name="preferences_face_extraction_angle_deviation_category_name">Desvio Angular</string>
+    <string name="preferences_face_maximal_yaw">Maximo Ângulo yaw</string>
+    <string name="preferences_face_maximal_roll">Maximo ângulo roll</string>
+    <string name="preferences_face_advanced_category_name">Avançado</string>
+    <string name="preferences_face_detect_all_feature_points">Detectar todos os pontos caracteristicos da face</string>
+    <string name="preferences_face_detect_base_feature_points">Detectar base de pontos de características</string>
+    <string name="preferences_face_determine_gender">Determinar gênero pela face</string>
+    <string name="preferences_face_detect_properties">Detectar Propriedades</string>
+    <string name="preferences_face_recognize_expression">Identificar Expressao</string>
+    <string name="preferences_face_recognize_emotion">Identificar emoções</string>
+    <string name="preferences_face_thumbnail_category_name">Thumbnail</string>
+    <string name="preferences_face_create_thumbnail">Criar thumbnail</string>
+    <string name="preferences_face_thumbnail_width">Largura Thumbnail</string>
+    <string name="preferences_reset_to_defaults">Restaurar valores padrão</string>
+    <string name="preferences_reset_to_defaults_summary">Restaurar valores para os padrões de fábrica</string>
+    <string name="preferences_face_matching_speed">Velocidade de Reconhecimento da Face</string>
+
+    <string name="verifica_ativacao">Não há licenças ativadas para a realização dessa atividade. Por favor ative primeiro as licenças!</string>
+
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_Banco">Banco de Dados</string>
+    <string name="menu_licenças">Gerenciar Licenças</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_face">Reconhecimento</string>
+
+    <string name="msg_extraction_succeeded">Extração das caracteristicas concluída com sucesso!</string>
+    <string name="msg_extraction_failed">Extração das caracteristicas Falhou: %1$s</string>
+
+    <string name="msg_enrollment_succeeded">Registro inserido com Sucesso</string>
+    <string name="msg_enrollment_failed">Falha no registro: %1$s</string>
+    <string name="msg_verification_succeeded">Reconhecimento Concluido com Sucesso</string>
+    <string name="msg_verification_failed">Falha no reconhecimento: %1$s</string>
+    <string name="msg_identification_results">Matrícula: %1$s</string>
+    <string name="msg_no_matches">Não foram Encontrados.</string>
+
+    <string name="msg_template_created">Template Criado</string>
+    <string name="format_extraction_failed">Extração Falhou</string>
+    <string name="format_obtaining_licenses">Obtendo Licenças</string>
+    <string name="msg_extract">Extrair</string>
+    <string name="msg_select_source">Teste</string>
+
+</resources>

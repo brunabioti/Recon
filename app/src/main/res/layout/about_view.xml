@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/about_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/linearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+		<ImageView
+			android:id="@+id/about_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/logobio" />
+
+		<LinearLayout
+			android:id="@+id/linearLayout2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+
+			<TextView
+				android:id="@+id/textHeader"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/msg_company_name"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayoutNomeApp"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/lblapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aplicativo: "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/blbnomeapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recon Bio Ti"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayoutnomeApp"
+                android:layout_marginTop="7dp"
+                >
+
+            <TextView
+                android:id="@+id/blbVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Versão:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.1 - Beta"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+
+			<TextView
+				android:id="@+id/textCopyright"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/msg_copyright"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="7dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:weightSum="1">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="viewStart">
+
+        <ImageView
+            android:id="@+id/logobio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bioti"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_ativador"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:textAlignment="gravity"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:textAlignment="viewStart">
+
+    </LinearLayout>
+
+
+    <ListView
+		android:id="@+id/list_view_serial_numbers"
+		android:layout_width="match_parent"
+		android:layout_height="313dp"
+        android:layout_weight="0.94">
+	</ListView>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0" >
+
+		<Button
+			android:id="@+id/btn_ativar"
+			android:layout_width="wrap_content"
+			android:layout_height="60dp"
+			android:layout_weight="1"
+			android:text="@string/btn_ativar" />
+
+	</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.example.bioti.reconbioti"
+        minSdkVersion 17
+        targetSdkVersion 17
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    // compile fileTree(include: ['*.jar'], dir: 'lib')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile files('libs/neurotec-licensing-android-5.1.0.0.jar')
+    compile files('libs/neurotec-core-5.1.0.0.jar')
+    compile files('libs/neurotec-core-android-5.1.0.0.jar')
+    compile files('libs/neurotec-media-5.1.0.0.jar')
+    compile files('libs/neurotec-media-android-5.1.0.0.jar')
+    compile files('libs/neurotec-media-processing-5.1.0.0.jar')
+    compile files('libs/neurotec-media-processing-android-5.1.0.0.jar')
+    compile files('libs/neurotec-biometrics-5.1.0.0.jar')
+    compile files('libs/neurotec-biometrics-android-5.1.0.0.jar')
+    compile files('libs/neurotec-biometrics-client-5.1.0.0.jar')
+    compile files('libs/neurotec-biometrics-client-android-5.1.0.0.jar')
+    compile files('libs/neurotec-biometrics-gui-5.1.0.0.jar')
+    compile files('libs/neurotec-biometrics-gui-android-5.1.0.0.jar')
+    compile files('libs/neurotec-devices-5.1.0.0.jar')
+    compile files('libs/neurotec-devices-android-5.1.0.0.jar')
+    compile files('libs/neurotec-devices-cameras-android-camera.jar')
+    compile files('libs/neurotec-devices-media-android-5.1.0.0.jar')
+    compile files('libs/neurotec-gui-5.1.0.0.jar')
+    compile files('libs/neurotec-gui-android-5.1.0.0.jar')
+    compile files('libs/jna.jar')
+    compile files('libs/acra.jar')
+}

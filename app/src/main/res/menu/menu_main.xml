@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <group android:id="@+id/action_group_common">
+
+     <item android:id="@+id/action_face"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/menu_face" />
+
+    <item android:id="@+id/action_preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/menu_configuracoes" />
+
+    <item android:id="@+id/action_database"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/menu_Banco" />
+
+    <item android:id="@+id/action_licensing"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/menu_licenças" />
+
+    <item android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/menu_sobre" />
+</group>
+
+</menu>

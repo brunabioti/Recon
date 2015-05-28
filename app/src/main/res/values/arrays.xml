@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="image_assets_file_extensions">
+		<item >jpg</item>
+		<item >jpeg</item>
+		<item >bmp</item>
+		<item >png</item>
+		<item >gif</item>
+	</string-array>
+
+	<string-array name="licensing_mode_names">
+		<item >From File</item>
+		<item >From PC</item>
+	</string-array>
+	<string-array name="licensing_mode_values">
+		<item >FROM_FILE</item>
+		<item >FROM_PC</item>
+	</string-array>
+
+    <string-array name="face_template_size_names">
+        <item>Compact (~2.2KB)</item>
+        <item>Small (~3.9KB)</item>
+        <item>Medium (~19.5KB)</item>
+        <item>Large (~35.1KB)</item>
+    </string-array>
+
+    <string-array name="face_template_size_values">
+        <item >0</item>
+        <item >64</item>
+        <item >128</item>
+        <item >256</item>
+    </string-array>
+
+    <string-array name="face_maching_speed_names">
+        <item >Low</item>
+        <item >High</item>
+    </string-array>
+
+    <string-array name="face_maching_speed_values">
+        <item >0</item>
+        <item >256</item>
+    </string-array>
+
+    <string-array name="face_threshold_values">
+        <item >12</item>
+        <item >24</item>
+        <item >36</item>
+        <item >48</item>
+    </string-array>
+
+    <string-array name="face_threshold_names">
+        <item >10%%</item>
+        <item >1%%</item>
+        <item >0.1%%</item>
+        <item >0.01%%</item>
+    </string-array>
+
+	<string-array name="trial_licensing_mode_names">
+		<item >Directly</item>
+		<item >From PC</item>
+	</string-array>
+	<string-array name="trial_licensing_mode_values">
+		<item >DIRECTLY</item>
+		<item >FROM_PC</item>
+	</string-array>
+</resources>
